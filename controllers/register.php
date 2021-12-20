@@ -83,7 +83,7 @@
                         ';
                         
                         $transport = (new Swift_SmtpTransport('smtp.gmail.com', 465, 'ssl'))
-                        ->setUsername('test473541321@gmail.com                        ')
+                        ->setUsername('test473541321g@gmail.com                        ')
                         ->setPassword('473541321gm');
 
                         $mailer = new Swift_Mailer($transport);
